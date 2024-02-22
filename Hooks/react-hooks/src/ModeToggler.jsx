@@ -1,5 +1,9 @@
 import { useState } from "react";
-
+/*
+    const darkModeOn = true;
+    so when we use this it can't work fine because it cant rerender the component.....
+    so when we work on state level it re render all the compnent and we set it here
+    */
 function ModeToggler(){
     const darkMode = <h1>This is dark Mode</h1>
     const lightMode = <h1>This is light Mode</h1>
